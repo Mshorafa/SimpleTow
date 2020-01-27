@@ -1,0 +1,540 @@
+/* Start Global Style */
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active,
+a:link,
+a:visited {
+    color: white;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+
+/* End Global Style */
+
+
+/* Start Nav-Bar  */
+
+.nav-Bar {
+    background-color: gray;
+    font-size: 15px;
+    height: 0px;
+    position: relative;
+    z-index: 2;
+}
+
+.nav-Bar .brand-Logo {
+    float: left;
+    width: 50%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav-Bar .links {
+    float: left;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.nav-Bar .links li {
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 0px 10px;
+    ;
+    text-transform: uppercase;
+}
+
+.nav-Bar .links li {
+    color: fff;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.nav-Bar .links li.active a,
+.nav-Bar .links li:hover a {
+    color: #1abc9c;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 5px;
+}
+
+
+/* End Nav-Bar  */
+
+
+/*  Start heder */
+
+.heder {
+    background-image: url('../images/IMGE-1.png');
+    height: 500px;
+    position: relative;
+}
+
+.heder .overlay {
+    background-color: rgb(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+/* start Edit slider  */
+
+.bx-wrapper .bx-prev {
+    left: 10px;
+    background: url(/images/controls.png) no-repeat 0 -32px;
+}
+
+.bx-wrapper .bx-next {
+    right: 10px;
+    background: url(/images/controls.png) no-repeat -43px -32px;
+}
+
+.heder .bx-wrapper {
+    box-shadow: none;
+    border: 0px;
+    background: none;
+    height: 100%;
+}
+
+.heder .bx-wrapper .bx-viewport {
+    text-align: center;
+    height: 100% !important;
+}
+
+.heder .bxslider {
+    height: 100%;
+    display: table;
+}
+
+.heder .bxslider li {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.heder .bxslider li h2 {
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.heder .bxslider li h2 span {
+    color: #1abc9c;
+}
+
+
+/* start Edit slider  */
+
+
+/*  End heder */
+
+
+/* Start our servers section */
+
+.servers {
+    padding: 20px;
+}
+
+.servers h2 {
+    margin: 0 0 50px;
+    font-weight: normal;
+}
+
+.servers .item {
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 20px;
+}
+
+.servers .item i {
+    color: #1abc9c;
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+.servers .item .info {
+    float: left;
+    width: 75%;
+}
+
+.servers .item .info h3 {
+    font-weight: normal;
+    color: #858383;
+    margin-bottom: 10px;
+}
+
+.servers .item .info p {
+    margin-top: 0px;
+    color:
+}
+
+.our-team {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.our-team h3 {
+    font-weight: normal;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.our-team .box {
+    float: left;
+}
+
+.our-team .box:first-child {
+    width: 35%;
+}
+
+.our-team .box:not(:first-child) {
+    width: 15.25%;
+    margin-left: 1%;
+    position: relative;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
+.our-team .box:not(:first-child) .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26, 188, 156, 0.7);
+    text-align: center;
+    line-height: 183px;
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+
+.our-team .box:not(:first-child):hover .overlay {
+    display: block;
+}
+
+.our-team .box:not(:first-child) img {
+    width: 100%;
+}
+
+.our-team .box P {
+    line-height: 1.5;
+    padding-top: 32px;
+    font-size: 15px;
+}
+
+
+/* End our servers section */
+
+
+/* start testimonies section */
+
+.testims {
+    background-image: url('https://picsum.photos/1600/1080');
+    height: 400px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.testims .t-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.testims h3 {
+    font-size: 25px;
+    margin: 40px 0px;
+}
+
+.testims q {
+    font-size: 20px;
+    line-height: 1.9;
+    padding-top: 50px;
+    display: block;
+}
+
+.testims q:before {
+    content: open-quote;
+    color: rgb(26, 188, 156, 0.7);
+}
+
+q:after {
+    content: close-quote;
+    color: rgb(26, 188, 156, 0.7);
+}
+
+.testims p {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(26, 188, 156, 0.7);
+}
+
+.testims .slider>div {
+    display: none;
+}
+
+.testims .slider .active {
+    display: block;
+}
+
+
+/* End testimonies section */
+
+
+/* Start Work Gallery section */
+
+.our-projects {
+    padding: 60px 0;
+}
+
+.our-projects h2 {
+    font-weight: normal;
+}
+
+.our-projects ul {
+    margin-top: 40px;
+}
+
+.our-projects ul li {
+    display: inline-block;
+    border: solid 2px #d7d5d5;
+    color: #3a3838;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 5px;
+    ;
+}
+
+.our-projects ul li.selected {
+    background-color: #1abc9c;
+    border: solid 2px #1abc9c;
+    color: #EEE
+}
+
+.our-projects .gallery {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.our-projects .gallery .row>div {
+    width: 32.66666%;
+    float: left;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.our-projects .gallery .row>div img {
+    width: 100%;
+}
+
+.our-projects .gallery .row>div:nth-child(2) {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.our-projects .gallery .row>div .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26, 188, 156, 0.7);
+    text-align: center;
+    line-height: 268px;
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+
+.our-projects .gallery .row>div .heart {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    display: none;
+}
+
+.our-projects .gallery .row>div:hover .overlay,
+.our-projects .gallery .row>div:hover .heart {
+    display: block;
+}
+
+.our-projects .shuffle {
+    cursor: pointer;
+}
+
+
+/* End Work Gallery section */
+
+
+/* Start Footer section */
+
+.Footer {
+    background-color: black;
+    font-size: 15px;
+    padding: 40px 0;
+    color: #6c6c6c;
+}
+
+.Footer .col {
+    width: 25%;
+    float: left;
+}
+
+.Footer .col h2 {
+    color: white;
+    font-weight: normal;
+    line-height: 1.6;
+    ;
+}
+
+.Footer .col p {
+    margin-bottom: 30px;
+    margin-right: 54px;
+    text-align: justify;
+}
+
+.Footer .col i {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #979797;
+    color: #6c6c6c;
+    width: 40px;
+}
+
+.Footer .resent div {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.Footer .resent div img {
+    float: left;
+    margin-right: 10px;
+}
+
+.Footer .resent div h4 {
+    margin: 8px 0;
+}
+
+.Footer .copyright {
+    margin-top: 30px;
+}
+
+.Footer .tags span {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #979797;
+    color: #6c6c6c;
+    margin-right: 4px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 11px;
+}
+
+.Footer .blog ul li {
+    padding: 15px;
+    border-bottom: 1px solid #1abc9c;
+}
+
+
+/* End Footer section */
+
+
+/* Start my Framework */
+
+.clearFix {
+    clear: both;
+}
+
+.special-handling,
+.special-img-line,
+.special-text-h3 {
+    position: relative;
+}
+
+.special-handling:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: 0;
+    width: 40px;
+    border-bottom: 2px solid black;
+}
+
+.special-img-line:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: 0;
+    width: 40px;
+    border-bottom: 2px solid white;
+}
+
+.special-text-h3:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: 520px;
+    width: 66px;
+    border-bottom: 2px solid white;
+}
+
+.separates {
+    border: solid 1px #EEE;
+    display: block;
+}
+
+
+/* End my Framework
